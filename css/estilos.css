@@ -1,0 +1,132 @@
+h1{
+    color: brown;
+} /* color de letras de h1 */
+header{background-color: rgb(0, 0, 0);} /*clor de fondo del header   */
+             
+
+
+
+
+ul{list-style-type: none;
+
+word-spacing: 10px;} /* alineo el menu */
+
+a{ text-decoration: none;
+   color: lawngreen;
+;} /* sacar subrayado del menu y cambio el color de letras*/
+
+li{display: inline;
+   font-size: 20px;} /* cambie el tamaño de letra del menu */
+
+
+.body{background-image: url(https://services.meteored.com/img/article/regresa-el-running-nocturno-a-buenos-aires-precaucion-con-la-humedad-258321-1_1280.jpg);
+      background-position: unset;} /* imagen de fondo de body */
+
+.parrafoDos{
+    font-size: 25px;
+    text-align:center;
+    font-family:"oswald";}
+
+.ParrafoUno{
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.imgNike{ width: 150px;} /* clase para tamaño de fotos */
+
+.imagenesClase{ display: flex;
+                flex-flow:wrap ;
+                justify-content:center;
+                text-align: center;
+                background-color:brown;
+               
+            } /* clase pa:ra direccion de fotos */
+
+
+.imagenesClase div{ border: rgb(0, 0, 0) solid;  
+                    border-radius: 15px;           
+                    margin: 5px;
+                    padding: 10px;
+                    text-align:inherit;                   
+}
+
+
+#grid{
+    display: grid;
+    grid-template-areas: "header header"
+                "seccion1 seccion3"
+                "seccion2 seccion3"
+                "footer footer";
+    grid-template-rows: 150px 1fr 1fr 1fr 75px;
+    grid-template-columns: 40% auto 15%;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    height: 100vh;
+    margin: 0;
+    width: 1550px;
+     }
+.border{
+    border: 1px solid rgb(118, 9, 9); 
+}
+header{
+    grid-area: header;
+}
+ section#uno{
+     grid-area: seccion1;
+     ;
+     
+ }
+ section#dos{ grid-area: seccion2;
+            ;}
+
+ section#tres{ grid-area: seccion3;}
+
+ footer{grid-area: footer;
+        background-color:black;
+         color: blanchedalmond;
+         text-align: center;}
+
+
+
+
+.nosotros{ display: grid;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        background-color: brown;
+        grid-template-areas:
+         "header header header"
+         "section1 section1 section1"
+         "section2 section3  section4"
+         "footer footer footer";
+}
+.nosotros section{background-color: rgba(124, 228, 156, 0.193);
+                  border: 1px solid black;}
+.section1{grid-area: section1;
+          font-size: 20px;
+          font-family:"oswald";
+}
+.section2{grid-area: section2;
+          text-align: center;}
+
+
+.section3{grid-area: section3;
+         text-align: center;}
+
+
+.section4{grid-area: section4;
+          text-align: center;}
+.section5{grid-area: footer;}
+
+
+.local{width: 400px;
+       height: 300px;
+    text-align:right;
+}
+.bodyContacto{
+    background-color: brown;
+}
+
+.productosDestacados{
+    text-align: center;
+}
+
