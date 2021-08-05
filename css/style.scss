@@ -1,3 +1,22 @@
+.flex__contacto{
 
-    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  
+}
+
+.contacto{
+
+border: rgb(0, 0, 0) solid;  
+                border-collapse: 15px;           
+                margin: 5px;
+                padding: 10px;
+                text-align:inherit;
+                
+                font-size: 18px;
+                
+}
+
+
 
