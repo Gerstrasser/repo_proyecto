@@ -1,7 +1,10 @@
 h1{
     color: brown;
+    text-shadow:5px 5px 28px #f00808;
+    
 } /* color de letras de h1 */
-header{background-color: rgb(0, 0, 0);} /*clor de fondo del header   */
+header{background-color: rgb(0, 0, 0);
+        } /*clor de fondo del header   */
              
 
 
@@ -12,15 +15,14 @@ ul{list-style-type: none;
 word-spacing: 10px;} /* alineo el menu */
 
 a{ text-decoration: none;
-   color: lawngreen;
+   color: rgb(169, 169, 169);
 ;} /* sacar subrayado del menu y cambio el color de letras*/
 
 li{display: inline;
    font-size: 20px;} /* cambie el tamaño de letra del menu */
 
 
-.body{background-image: url(https://services.meteored.com/img/article/regresa-el-running-nocturno-a-buenos-aires-precaucion-con-la-humedad-258321-1_1280.jpg);
-      background-position: unset;} /* imagen de fondo de body */
+
 
 .parrafoDos{
     font-size: 25px;
@@ -38,7 +40,7 @@ li{display: inline;
                 flex-flow:wrap ;
                 justify-content:center;
                 text-align: center;
-                background-color:brown;
+                background-color:rgb(165, 165, 165);
                
             } /* clase pa:ra direccion de fotos */
 
@@ -54,19 +56,14 @@ li{display: inline;
 #grid{
     display: grid;
     grid-template-areas: "header header"
-                "seccion1 seccion3"
+                "seccion1 seccion1"
                 "seccion2 seccion3"
                 "footer footer";
-    grid-template-rows: 150px 1fr 1fr 1fr 75px;
-    grid-template-columns: 40% auto 15%;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
-    height: 100vh;
-    margin: 0;
-    width: 1550px;
+    
      }
 .border{
-    border: 1px solid rgb(118, 9, 9); 
+    border: 1px solid rgb(5, 5, 5); 
+    
 }
 header{
     grid-area: header;
@@ -82,9 +79,13 @@ header{
  section#tres{ grid-area: seccion3;}
 
  footer{grid-area: footer;
-        background-color:black;
-         color: blanchedalmond;
-         text-align: center;}
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #000000 20%, #000000 20%, #45484d 44%, #000000 66%, #45484d 87%, #45484d 87%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #000000 20%,#000000 20%,#45484d 44%,#000000 66%,#45484d 87%,#45484d 87%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #000000 20%,#000000 20%,#45484d 44%,#000000 66%,#45484d 87%,#45484d 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: blanchedalmond;
+    text-align: center;}
 
 
 
@@ -92,7 +93,7 @@ header{
 .nosotros{ display: grid;
         grid-column-gap: 5px;
         grid-row-gap: 5px;
-        background-color: brown;
+        background-color: rgb(150, 150, 150);
         grid-template-areas:
          "header header header"
          "section1 section1 section1"
@@ -123,10 +124,72 @@ header{
     text-align:right;
 }
 .bodyContacto{
-    background-color: brown;
+    background-color: rgb(165, 165, 165);
 }
 
 .productosDestacados{
     text-align: center;
 }
 
+.boton{
+    transform: scale(0.861, 0.846);
+    -webkit-transform: scale(0.861, 0.846);
+    -moz-transform: scale(0.861, 0.846);
+    -o-transform: scale(0.861, 0.846);
+    -ms-transform: scale(0.861, 0.846);
+    transition: color 2s linear;
+    align-self:flex-end;
+    
+}
+
+.prueba{
+    display: grid;
+    background-color: coral;
+    border:cyan solid;
+    grid-template-areas: 
+                          "div2 div2"
+                          "div3 div3"
+                          "div5 div5"
+                          ;
+                          grid-column-gap: 5px;
+                          grid-row-gap: 5px;
+                          
+    
+}
+.prueba div{
+    border: #00ff7f solid;
+    margin: 5px;
+    padding: 10px;
+}
+
+.div1{
+    grid-area: div1;
+}
+
+.div2{
+    grid-area: div2;
+}
+
+.div3{
+    grid-area: div3;
+}
+
+;
+
+.div5{
+    grid-area: div5;
+}
+
+.fondo__index{
+    width: 1345px;
+    height: 500px;
+    
+
+   
+    
+        
+        
+    
+       
+    
+}
