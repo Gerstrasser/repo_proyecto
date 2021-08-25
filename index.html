@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content=" calzado, running, pelota, indumentaria">
     <meta name="description" content="tienda de indumenraria deportiva">
+    <link rel="shortcut icon" href="imagenes/favicon.npg.png" type="image/x-icon">
+    <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <title>FitnesStrasser  </title>
 </head>
   <body class="bodyContacto"> 
@@ -27,7 +28,7 @@
           <li><a href="nosotros.html">Nosotros</a></li>
           <li> <a href="contacto.html">Contacto</a></li> 
         
-          <label class="barra" for="busqueda">¿ Qué quieres buscar? </label>
+          <label class="barra" for="busqueda"> </label>
                         <input type="search" id="busqueda" name="q"/>
                         <input type="submit" value="Buscar"/>
                     
@@ -43,13 +44,34 @@
     
    
       <section id="uno" class="border">
-                                 
-                                  <div>
-                                       <img src="imagenes/fondo index2.jpg" alt="efe" class="fondo__index">
-
-
-
-                                  </div>
+  
+         <div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner fondo__index">
+              <div class="carousel-item active">
+                <img src="imagenes/fondo index2.jpg" class="d-block w-100 " alt="fondo1">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/running.jpg" class="d-block w-100 " alt="fondo2">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/fondo 3.jpg" class="d-block w-100 " alt="fondo3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>                                 
               
 
              
@@ -58,49 +80,86 @@
       </section>
 
       <section id="dos" class="border">
-      <div><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, incidunt architecto dolores id non, deleniti earum molestias odio doloremque ut dolor modi ratione ducimus delectus minima adipisci quidem molestiae vitae!
-       </p> </div> 
+        <div class="productosDestacados"><h3>PRODUCTOS HOMBRES</h3> </div>
+
+         <div class="imagenesClase">
+          <div>
+                <img src="imagenes/remera adidas.jpg" alt="adidas" class="imagenes__index">
+                 <p>Remera Adidas</p>
+                <span>2000$</span>
+                <br> <br> <br>
+                <button type="button" class="btn btn-dark boton">Comprar</button>
+         </div>
+
+         <div>
+             <img src="imagenes/remera gris.jpg" alt="gris" class="imagenes__index">
+             <p>Remera Nike</p>
+             <span>2000$</span>
+             <br> <br> <br> 
+             <button type="button" class="btn btn-dark boton ">Comprar</button>
+         </div>
+         <div>
+          <img src="imagenes/remera nike.jpg" alt="nike" class="imagenes__index">
+          <p>Remera nike</p>
+          <span>2000$</span>
+          <br> <br> <br>
+          <button type="button" class="btn btn-dark boton">Comprar</button>
+       </div> 
+
+
+
+        
+        
       </section>
 
 
 
 
        <section id="tres" class="border">
-        <div> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia vel minus error veniam ratione? Culpa doloremque corrupti nisi, necessitatibus veritatis quia rerum numquam maiores illo ex modi assumenda eius sint?
+            <div class="productosDestacados"><h3>PRODUCTOS MUJERES</h3></div>
+            <div class="imagenesClase">
+              <div>
+                    <img src="imagenes/top nike.jpg" alt="top" class="imagenes__index">
+                     <p>Remera Adidas</p>
+                    <span>2000$</span>
+                    <br> <br> <br>
+                    <button type="button" class="btn btn-dark boton">Comprar</button>
+             </div>
 
-        
-        </div>
+             <div>
+                    <img src="imagenes/buzo_nike.jpg" alt="buzo" class="imagenes__index">
+                     <p>Remera Adidas</p>
+                    <span>2000$</span>
+                    <br> <br> <br>
+                    <button type="button" class="btn btn-dark boton">Comprar</button>
+             </div>
+             <div>
+              <img src="imagenes/remera-nike-just-do-it-slim-mujer-negra-510020ci1383010-1.jpg" alt="remerajust" class="imagenes__index">
+               <p>Remera Adidas</p>
+              <span>2000$</span>
+              <br> <br> <br>
+              <button type="button" class="btn btn-dark boton">Comprar</button>
+       </div>
+     
+                                    
+
+    
                
 
       </section>
-       
-
-       
-
-        
-
-    
-   
-
-   
-
-
-
-
-
-
-
-
-
-
 
   
    <footer class="footerContacto">
         <strong><div>Direcciones: Av. acoyte 550</div>
                  <div>Email: FitnesStrasser@gmail.com </div>
                  <div>Telefono: 4999-0000</div>
+                 <div><span class="icon-google2"></span></div>
          </strong>
    </footer>
 </div>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
